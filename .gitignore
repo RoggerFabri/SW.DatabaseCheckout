@@ -48,5 +48,5 @@ packages
 bin
 obj
 .apdisk
-
+.vs
 .csproj.user
