@@ -18,7 +18,7 @@ There are 4 Projects within the Solution:
 
 - SW.DatabaseCheckout.Util
 
-  -Contains public Resources (Strings), one method that returns true if a given process is running and one method to post a message to Slack (You must configure you WebHook before using this).
+  -Contains public Resources (Strings), one method that returns true if a given process is running and one method to post a message to Slack (You must configure you WebHook before using this) See [https://api.slack.com/incoming-webhooks].
 
 - SW.DatabaseCheckout.WebServer
 
