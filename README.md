@@ -14,7 +14,7 @@ There are 4 Projects within the Solution:
 
   -This is NOT the main server, it is an WinForm server which you can run on your machine for testing purpose before publishing the WebServer. It implements the same SingleLockHub as the WebServer. It's currently configured to run at http://localhost:8080 as in the app.config.
 
--SW.DatabaseCheckout.Util
+- SW.DatabaseCheckout.Util
 
   -Public Resources, a method that returns true if a given process is running and a method to post a message to slack (You must configure you WebHook before using this).
 
