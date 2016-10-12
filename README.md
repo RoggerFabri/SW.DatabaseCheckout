@@ -1,8 +1,10 @@
 # SW.DatabaseCheckout
 
 A functional example of SignalR Client and Server (WebServer) application integrating with Slack Incoming Webhook.
-This app controls a Lock condition based on a given process executing on the client machine. The server communicates with all connected clients informing the lock phase.
-I wrote this application to better understand SignalR library using a remote server and to solve one personal problem.
+This app controls a Single Phase Lock condition based on a given process executing on the client machine. The server communicates with all connected clients informing the lock phase. Only one connected client can lock the phase in Server and this same client must unlock it so other connected client can lock it again.
+I wrote this application to better understand the SignalR library using a remote server and to solve one personal problem.
+
+The condition to Lock and Unlock is specific to my needs, but you can easily change it.
 
 There are 4 Projects within the Solution:
 
@@ -16,7 +18,7 @@ There are 4 Projects within the Solution:
 
 - SW.DatabaseCheckout.Util
 
-  -Public Resources, a method that returns true if a given process is running and a method to post a message to slack (You must configure you WebHook before using this).
+  -Contains public Resources (Strings), one method that returns true if a given process is running and one method to post a message to Slack (You must configure you WebHook before using this).
 
 - SW.DatabaseCheckout.WebServer
 
