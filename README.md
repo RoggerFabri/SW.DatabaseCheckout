@@ -14,11 +14,11 @@ There are 4 Projects within the Solution:
 
 - SW.DatabaseCheckout.Server
 
-  -This is NOT the main server, it is an WinForm server which you can run on your machine for testing purpose before publishing the WebServer. It implements the same SingleLockHub as the WebServer. It's currently configured to run at http://localhost:8080 as in the app.config.
+  -This is NOT the main server, it is an WinForm server which you can run on your machine for testing purpose before publishing the WebServer. It implements the same SingleLockHub as the WebServer. It's currently configured to run at `http://localhost:8080` as in the app.config.
 
 - SW.DatabaseCheckout.Util
 
-  -Contains public Resources (Strings), one method that returns true if a given process is running and one method to post a message to Slack (You must configure you WebHook before using this) See [https://api.slack.com/incoming-webhooks].
+  -Contains public Resources (Strings), one method that returns true if a given process is running and one method to post a message to Slack (You must configure you WebHook before using this) See https://api.slack.com/incoming-webhooks for reference.
 
 - SW.DatabaseCheckout.WebServer
 
