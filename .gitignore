@@ -47,4 +47,6 @@ Temporary Items
 packages
 bin
 obj
+Service References
+ApplicationInsights.config
 .apdisk
