@@ -49,4 +49,4 @@ bin
 obj
 .apdisk
 .vs
-.csproj.user
+*.csproj.user
